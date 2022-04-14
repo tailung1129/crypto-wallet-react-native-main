@@ -142,5 +142,5 @@ const mapDispatchToProps = dispatch => ({
     isSelectedAll: () => dispatch(isSelectedAll()),
 
 });
+
 export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
-// export default HomeScreen;
