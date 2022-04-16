@@ -13,7 +13,6 @@ import {
     Dimensions,
     StatusBar,
 } from 'react-native';
-// import { TabView, SceneMap } from 'react-native-tab-view';
 import { avatar, clock, number, send, receive, buy, copy } from '../../assets/icons/index';
 import { Dropdown, MultiSelect } from 'react-native-element-dropdown';
 import CopyIcon from 'react-native-vector-icons/FontAwesome5'
