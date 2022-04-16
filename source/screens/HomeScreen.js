@@ -88,7 +88,6 @@ function MyTabBar({ state, descriptors, navigation }) {
         </View>
     );
 }
-
 function MyTabs() {
     return (
         <View style={{ width: '100%', height: '100%', backgroundColor: '#0d0d0d' }}>
@@ -142,5 +141,4 @@ const mapDispatchToProps = dispatch => ({
     isSelectedAll: () => dispatch(isSelectedAll()),
 
 });
-
 export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
