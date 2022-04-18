@@ -130,7 +130,6 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.35,
     },
 });
-
 const mapStateToProps = state => {
     return {
         events: state.eventCardsReducer
